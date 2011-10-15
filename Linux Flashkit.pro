@@ -1,0 +1,10 @@
+TEMPLATE = app
+QT = gui core
+CONFIG += qt debug warn_on console
+DESTDIR = bin
+OBJECTS_DIR = build
+MOC_DIR = build
+UI_DIR = build
+FORMS = ui/Flashkit.ui
+HEADERS = src/flashkitimpl.h
+SOURCES = src/flashkitimpl.cpp src/main.cpp

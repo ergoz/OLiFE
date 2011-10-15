@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FlashWindow</class>
+ <widget class="QMainWindow" name="FlashWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>927</width>
+    <height>587</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Linux Flashkit ${VERS}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="aDeviceBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>70</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Asus Transformer TF101</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Samsung Galaxy Tab 10.1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Samsung Galaxy Tab 7&quot;</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="aDevice">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>61</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Device</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="aROM">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>41</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ROM</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="aROMBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>120</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Prime</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Revolver</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Other &lt;Please Specify Path&gt;</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="aBootT">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>71</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Boot Type</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="aBootTBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>170</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Dual Boot</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Android Only</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Linux Only</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="aBootO">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>81</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Boot Order</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="aBootOBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>220</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Android Primary; Linux Secondary</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Linux Primary; Android Secondary</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="aLinuxFS">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>280</y>
+      <width>81</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Linux FS</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="aLinuxFSBox">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>270</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Ubuntu Natty 11.04</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ubuntu Oneiric 11.10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Other/User Supplied</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushAdvanve">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>500</y>
+      <width>98</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Advanced</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushNext1">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>500</y>
+      <width>98</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Next</string>
+    </property>
+   </widget>
+   <zorder>aLinuxFSBox</zorder>
+   <zorder>aDeviceBox</zorder>
+   <zorder>aDevice</zorder>
+   <zorder>aROM</zorder>
+   <zorder>aROMBox</zorder>
+   <zorder>aBootT</zorder>
+   <zorder>aBootTBox</zorder>
+   <zorder>aBootO</zorder>
+   <zorder>aBootOBox</zorder>
+   <zorder>aLinuxFS</zorder>
+   <zorder>pushAdvanve</zorder>
+   <zorder>pushNext1</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>927</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionAbout"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
