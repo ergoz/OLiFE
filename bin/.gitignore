@@ -1,0 +1,4 @@
+#
+#  Don't commit the binary file that gets built.
+#
+./Linux\ Flashkit
