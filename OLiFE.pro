@@ -11,5 +11,6 @@ HEADERS = src/mainwindowimpl.h \
  src/downloader.h \
  src/nvhash.h \
  src/defines.h \
- src/file.h
+ src/file.h \
+ src/uibuttons.h
 SOURCES = src/mainwindowimpl.cpp src/main.cpp

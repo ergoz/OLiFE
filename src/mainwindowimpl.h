@@ -12,9 +12,7 @@ Q_OBJECT
 public:
 	MainWindowImpl( QWidget * parent = 0, Qt::WFlags f = 0 );	
 private slots:
-	void handleButton();
-private:
-	QPushButton *m_button;
+
 };
 #endif
 
